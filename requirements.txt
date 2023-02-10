@@ -1,5 +1,0 @@
-install 
-requests 
-json 
-urllib
-flask
