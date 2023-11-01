@@ -64,7 +64,7 @@ def main():
     global next_page_token
     next_page = False
     next_page_token = "" 
-    index_link = input("Enter the index link: ")
+    index_link = input("Enter your fucking index link here you MF: ")
     auth = check_protected(index_link)
     print(f"Index Link: {index_link}\n\n")
     x = 0
@@ -76,7 +76,7 @@ def main():
         result += func(payload, index_link, auth=auth) or ""
         x += 1
 
-    output_file = input("\nEnter output file name: ") + ".txt"
+    output_file = input("\nEnter a FUCKING file name you SON OF A BITCH: ") + ".txt"
     with open(output_file, "w") as f:
         f.write(result)
     print(f"\nResults saved to {output_file}")
